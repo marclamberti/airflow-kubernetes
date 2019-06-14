@@ -25,7 +25,7 @@ _MY_SCRIPT="${BASH_SOURCE[0]}"
 _MY_DIR=$(cd "$(dirname "$_MY_SCRIPT")" && pwd)
 # Avoids 1.7.x because of https://github.com/kubernetes/minikube/issues/2240
 _KUBERNETES_VERSION="${KUBERNETES_VERSION}"
-_MINIKUBE_VERSION="${MINIKUBE_VERSION:-v0.34.1}"
+_MINIKUBE_VERSION="${MINIKUBE_VERSION:-v1.1.1}"
 
 echo "setting up kubernetes ${_KUBERNETES_VERSION}, using minikube ${_MINIKUBE_VERSION}"
 
